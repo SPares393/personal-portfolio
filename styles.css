@@ -33,7 +33,7 @@
 .heading {
   text-align: center;
   color: #fafafa;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .main {
@@ -54,9 +54,16 @@
 }
 .div__welcome__text {
   text-align: center;
-  margin-top: 27.5%;
+  margin-top: 25%;
+  margin-right: 4%;
   color: #333333;
-  font-weight: bolder;
+}
+.div__welcome__text--1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.div__welcome__text--2 {
+  font-size: 3em;
 }
 
 .div__about {
@@ -68,6 +75,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   opacity: 0.75;
+  margin-left: 5%;
+}
+.div__about__heading {
+  font-size: 4em;
+  margin: 5% 0;
 }

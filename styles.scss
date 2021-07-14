@@ -52,7 +52,7 @@ $font-main: "Nunito", sans-serif;
 .heading {
   text-align: center;
   color: $color-white;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .main {
@@ -73,9 +73,18 @@ $font-main: "Nunito", sans-serif;
 
   &__text {
     text-align: center;
-    margin-top: 27.5%;
+    margin-top: 25%;
+    margin-right: 4%;
     color: $color-black;
-    font-weight: bolder;
+
+    &--1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    &--2 {
+      font-size: 3em;
+    }
   }
 }
 
@@ -88,6 +97,11 @@ $font-main: "Nunito", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   opacity: 0.75;
+  margin-left: 5%;
+
+  &__heading {
+    font-size: 4em;
+    margin: 5% 0;
+  }
 }
