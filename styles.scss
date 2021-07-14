@@ -98,10 +98,48 @@ $font-main: "Nunito", sans-serif;
   flex-direction: column;
   justify-content: center;
   opacity: 0.75;
-  margin-left: 5%;
 
   &__heading {
     font-size: 4em;
-    margin: 5% 0;
+    margin: 5%;
+  }
+
+  &__text {
+    margin: 1% 5%;
+    font-size: 1.25em;
+  }
+}
+
+.div__projects {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.75;
+
+  &__heading {
+    font-size: 4em;
+    margin: 5%;
+  }
+}
+
+.div__contact {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.75;
+
+  &__heading {
+    font-size: 4em;
+    margin: 5%;
   }
 }

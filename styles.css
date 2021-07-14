@@ -76,9 +76,44 @@
   flex-direction: column;
   justify-content: center;
   opacity: 0.75;
-  margin-left: 5%;
 }
 .div__about__heading {
   font-size: 4em;
-  margin: 5% 0;
+  margin: 5%;
+}
+.div__about__text {
+  margin: 1% 5%;
+  font-size: 1.25em;
+}
+
+.div__projects {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.75;
+}
+.div__projects__heading {
+  font-size: 4em;
+  margin: 5%;
+}
+
+.div__contact {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.75;
+}
+.div__contact__heading {
+  font-size: 4em;
+  margin: 5%;
 }
