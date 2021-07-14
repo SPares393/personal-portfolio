@@ -1,10 +1,13 @@
 $color-black: #333333;
 $color-white: #fafafa;
 
+$font-main: "Nunito", sans-serif;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font-main;
 }
 
 .nav__bar {
@@ -32,18 +35,24 @@ $color-white: #fafafa;
     border-radius: 50%;
     width: 50%;
     height: auto;
-    margin: 10%;
+    margin: 7.5%;
     border: 2px solid $color-black;
   }
 
   &__buttons {
-    margin: 10%;
+    margin: 7.5%;
   }
 
   &__icon {
     width: 20%;
-    margin: 10%;
+    margin-bottom: 10%;
   }
+}
+
+.heading {
+  text-align: center;
+  color: $color-white;
+  font-weight: bolder;
 }
 
 .main {
@@ -56,4 +65,29 @@ $color-white: #fafafa;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.75;
+
+  &__text {
+    text-align: center;
+    margin-top: 27.5%;
+    color: $color-black;
+    font-weight: bolder;
+  }
+}
+
+.div__about {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.75;
 }
