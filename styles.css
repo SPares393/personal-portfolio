@@ -88,18 +88,18 @@
 
 .div__projects {
   height: 100vh;
-  background-image: url("./images/pear.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   opacity: 0.75;
+  align-items: center;
 }
 .div__projects__heading {
   font-size: 4em;
-  margin: 5%;
+  margin: 2% 5%;
+}
+
+.carousel {
+  width: 75%;
 }
 
 .div__contact {
@@ -116,4 +116,16 @@
 .div__contact__heading {
   font-size: 4em;
   margin: 5%;
+}
+.div__contact__icons {
+  margin-left: 31.5%;
+  font-size: 5em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.div__contact__icon__link {
+  margin: 1.5%;
+}
+.div__contact__attribute {
+  margin-left: 5%;
 }

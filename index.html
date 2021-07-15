@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/99d895a3dc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="nav__bar">
@@ -48,7 +52,10 @@
         </div>
       </div>
       <div class="div__about">
-        <h1 class="div__about__heading">About Me</h1>
+        <h1 class="div__about__heading">
+          About<br />
+          Me
+        </h1>
         <p class="div__about__text">
           A former sales professional based in Bristol, I’m currently retraining
           as a web developer on the _nology self-paced course.
@@ -64,15 +71,94 @@
       </div>
       <div class="div__projects">
         <h1 class="div__projects__heading">My Projects</h1>
+        <div
+          id="carouselProjects"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselProjects"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselProjects"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselProjects"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/bruce.JPG" class="d-block w-100" alt="dog" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>My dog</h5>
+                <p>The best placeholder.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/bruce.JPG" class="d-block w-100" alt="dog" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Still my dog</h5>
+                <p>I know you wanted another look.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/bruce.JPG" class="d-block w-100" alt="dog" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Surprise!</h5>
+                <p>Yep, still the dog.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselProjects"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselProjects"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
       <div class="div__contact">
-        <h1 class="div__contact__heading">Get in Touch!</h1>
+        <h1 class="div__contact__heading">
+          Get in<br />
+          Touch!
+        </h1>
+        <div class="div__contact__icons">
+          <i class="fab fa-linkedin div__contact__icon__link"></i>
+          <i class="fab fa-github div__contact__icon__link"></i>
+          <i class="far fa-envelope div__contact__icon__link"></i>
+        </div>
+      </div>
+      <div class="div__contact__attribute">
+        Icons made by
+        <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
       </div>
     </main>
-    <!-- <div>
-      Icons made by
-      <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    </div> -->
   </body>
 </html>
