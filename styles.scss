@@ -10,6 +10,11 @@ $font-main: "Nunito", sans-serif;
   font-family: $font-main;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 .nav__bar {
   background-image: url("./images/nav_background.jpg");
   height: 100vh;
@@ -47,6 +52,10 @@ $font-main: "Nunito", sans-serif;
     width: 20%;
     margin-bottom: 10%;
   }
+}
+
+button a {
+  color: $color-white;
 }
 
 .heading {
@@ -114,10 +123,10 @@ $font-main: "Nunito", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  opacity: 0.75;
   align-items: center;
 
   &__heading {
+    opacity: 0.75;
     font-size: 4em;
     margin: 2% 5%;
   }
@@ -144,18 +153,78 @@ $font-main: "Nunito", sans-serif;
   }
 
   &__icons {
-    // margin-top: 5%;
     margin-left: 31.5%;
     font-size: 5em;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
   }
 
   &__icon__link {
     margin: 1.5%;
+    color: $color-black;
+  }
+
+  &__icon__link:hover {
+    text-decoration: none;
+    color: $color-black;
   }
 
   &__attribute {
     margin-left: 5%;
+  }
+
+  &__attribute__link,
+  &__attribute__link:hover {
+    text-decoration: none;
+    color: $color-black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+  .nav__bar {
+    width: 100vw;
+    position: static;
+
+    &__buttons {
+      margin: 5%;
+    }
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .div__welcome {
+    justify-content: flex-end;
+
+    &__text {
+      margin-bottom: 25%;
+      margin-right: 10%;
+    }
+  }
+
+  .div__about__text {
+    font-size: 1em;
+  }
+
+  .div__projects {
+    height: 65vh;
+  }
+
+  .carousel {
+    margin-top: 10%;
+    width: 95%;
+  }
+
+  .div__contact {
+    // align-items: center;
+
+    &__icons {
+      margin-top: 10%;
+      margin-left: 15%;
+    }
   }
 }

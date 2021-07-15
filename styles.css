@@ -5,6 +5,11 @@
   font-family: "Nunito", sans-serif;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 .nav__bar {
   background-image: url("./images/nav_background.jpg");
   height: 100vh;
@@ -28,6 +33,10 @@
 .nav__bar__icon {
   width: 20%;
   margin-bottom: 10%;
+}
+
+button a {
+  color: #fafafa;
 }
 
 .heading {
@@ -90,10 +99,10 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  opacity: 0.75;
   align-items: center;
 }
 .div__projects__heading {
+  opacity: 0.75;
   font-size: 4em;
   margin: 2% 5%;
 }
@@ -121,11 +130,59 @@
   margin-left: 31.5%;
   font-size: 5em;
   display: flex;
-  flex-wrap: wrap;
 }
 .div__contact__icon__link {
   margin: 1.5%;
+  color: #333333;
+}
+.div__contact__icon__link:hover {
+  text-decoration: none;
+  color: #333333;
 }
 .div__contact__attribute {
   margin-left: 5%;
+}
+.div__contact__attribute__link, .div__contact__attribute__link:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+@media screen and (max-width: 480px) {
+  .nav__bar {
+    width: 100vw;
+    position: static;
+  }
+  .nav__bar__buttons {
+    margin: 5%;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .div__welcome {
+    justify-content: flex-end;
+  }
+  .div__welcome__text {
+    margin-bottom: 25%;
+    margin-right: 10%;
+  }
+
+  .div__about__text {
+    font-size: 1em;
+  }
+
+  .div__projects {
+    height: 65vh;
+  }
+
+  .carousel {
+    margin-top: 10%;
+    width: 95%;
+  }
+
+  .div__contact__icons {
+    margin-top: 10%;
+    margin-left: 15%;
+  }
 }

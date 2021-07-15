@@ -31,12 +31,14 @@
         <h2>Junior Web Developer</h2>
       </div>
       <div class="nav__bar__buttons d-grid gap-4 col-8 mx-auto">
-        <button type="button" class="btn btn-success btn-lg">About Me</button>
         <button type="button" class="btn btn-success btn-lg">
-          My Projects
+          <a href="#about">About Me</a>
         </button>
         <button type="button" class="btn btn-success btn-lg">
-          Get In Touch!
+          <a href="#projects">My Projects</a>
+        </button>
+        <button type="button" class="btn btn-success btn-lg">
+          <a href="#contact">Get In Touch!</a>
         </button>
       </div>
       <img src="./images/pear.png" alt="icon" class="nav__bar__icon" />
@@ -51,7 +53,7 @@
           </h2>
         </div>
       </div>
-      <div class="div__about">
+      <div class="div__about" id="about">
         <h1 class="div__about__heading">
           About<br />
           Me
@@ -69,7 +71,7 @@
           together!
         </p>
       </div>
-      <div class="div__projects">
+      <div class="div__projects" id="projects">
         <h1 class="div__projects__heading">My Projects</h1>
         <div
           id="carouselProjects"
@@ -141,24 +143,52 @@
           </button>
         </div>
       </div>
-      <div class="div__contact">
+      <div class="div__contact" id="contact">
         <h1 class="div__contact__heading">
           Get in<br />
           Touch!
         </h1>
         <div class="div__contact__icons">
-          <i class="fab fa-linkedin div__contact__icon__link"></i>
-          <i class="fab fa-github div__contact__icon__link"></i>
-          <i class="far fa-envelope div__contact__icon__link"></i>
+          <a
+            href="https://www.linkedin.com/in/stuart-pares-6269a2170/"
+            target="_blank"
+            class="div__contact__icon__link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/SPares393"
+            target="_blank"
+            class="div__contact__icon__link"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="mailto:stuartpares@live.co.uk"
+            class="div__contact__icon__link"
+            ><i class="far fa-envelope"></i
+          ></a>
         </div>
       </div>
       <div class="div__contact__attribute">
         Icons made by
-        <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
-        <a href="https://www.flaticon.com/" title="Flaticon"
+        <a
+          href="https://www.freepik.com"
+          title="Freepik"
+          class="div__contact__attribute__link"
+          >Freepik</a
+        >
+        from
+        <a
+          href="https://www.flaticon.com/"
+          title="Flaticon"
+          class="div__contact__attribute__link"
           >www.flaticon.com</a
         >
       </div>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
