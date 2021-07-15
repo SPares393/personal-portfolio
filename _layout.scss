@@ -1,0 +1,121 @@
+.heading {
+  text-align: center;
+  color: $color-white;
+  font-weight: bold;
+}
+
+.main {
+  margin-left: 25%;
+}
+
+.div__welcome {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.75;
+
+  &__text {
+    text-align: center;
+    margin-top: 25%;
+    margin-right: 4%;
+    color: $color-black;
+
+    &--1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    &--2 {
+      font-size: 3em;
+    }
+  }
+}
+
+.div__about {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.75;
+
+  &__heading {
+    font-size: 4em;
+    margin: 5%;
+  }
+
+  &__text {
+    margin: 1% 5%;
+    font-size: 1.25em;
+  }
+}
+
+.div__projects {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    opacity: 0.75;
+    font-size: 4em;
+    margin: 2% 5%;
+  }
+}
+
+.carousel {
+  width: 75%;
+}
+
+.div__contact {
+  height: 100vh;
+  background-image: url("./images/pear.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.75;
+
+  &__heading {
+    font-size: 4em;
+    margin: 5%;
+  }
+
+  &__icons {
+    margin-left: 31.5%;
+    font-size: 5em;
+    display: flex;
+    // flex-wrap: wrap;
+  }
+
+  &__icon__link {
+    margin: 1.5%;
+    color: $color-black;
+  }
+
+  &__icon__link:hover {
+    text-decoration: none;
+    color: $color-black;
+  }
+
+  &__attribute {
+    margin-left: 5%;
+  }
+
+  &__attribute__link,
+  &__attribute__link:hover {
+    text-decoration: none;
+    color: $color-black;
+  }
+}

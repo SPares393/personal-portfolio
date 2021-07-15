@@ -1,0 +1,42 @@
+.nav__bar {
+  background-image: url("./images/nav_background.jpg");
+  height: 100vh;
+  width: 25vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  //   &__box {
+  //     background-color: $color-white;
+  //     border: 2px solid $color-black;
+  //     margin: 30px;
+  //     height: 90%;
+  //     opacity: 0.5;
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+  //   }
+
+  &__image {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    margin: 7.5%;
+    border: 2px solid $color-black;
+  }
+
+  &__buttons {
+    margin: 7.5%;
+  }
+
+  &__icon {
+    width: 20%;
+    margin-bottom: 10%;
+  }
+}
+
+button a {
+  color: $color-white;
+}
